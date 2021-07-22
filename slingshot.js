@@ -13,7 +13,7 @@ class Slingshot{
         World.add(world,this.Sling);
     }
        
-
+    fly(){ this.sling.bodyA =null;  }
     
     display(){
       
@@ -23,6 +23,8 @@ class Slingshot{
         
         stroke("red");
         line(pointA.x,pointA.y,pointB.x,pointB.y);
+
+       
     }
 }
 
